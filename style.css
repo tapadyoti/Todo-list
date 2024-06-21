@@ -56,8 +56,8 @@ body{
 }
 .lists{
     margin-top: .7rem;
-    display: flex;
-    justify-content: space-between;    
+    display: grid;
+grid-template-columns: 6fr 1fr;
 }
 .item span{
     color: white;
@@ -88,6 +88,7 @@ ul .item::before{
 }
 
 .listContainer button{
+    height: 40px;
     width: 6rem;
     color: white;
     border-radius: .7rem;
